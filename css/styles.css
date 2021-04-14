@@ -5,6 +5,8 @@ Text Color (Dark Blue): #2f2945;
 Font: font-family: 'Quicksand', sans-serif;
 */
 /* /////STYLES///// */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=RocknRoll+One&display=swap');
+
 :root {
   --bgcolor: #f2ebd8;
   --textcolor: #2f2945;
