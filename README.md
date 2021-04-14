@@ -1,4 +1,4 @@
-#Achievement 1 Project: JavaScript App (Pokédex)
+**Achievement 1 Project: JavaScript App (Pokédex)**
 
 *Objective*
 To build a small web application with HTML, CSS, and JavaScript that loads
