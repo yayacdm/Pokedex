@@ -126,6 +126,9 @@ var pokemonRepository = (function () {
 pokemonList.forEach(function(pokemonRepository.getAll)) {
   document.write(pokemon.name + '- Height: ' + pokemon.height + ', Type: ' + pokemon.type + '<br>');
 });
+Object.keys(anne).forEach(function(property) {
+  document.write(property + ': ' + anne[property] + '<br>');
+});
 */
 
 document.write(pokemonRepository.getAll() );
