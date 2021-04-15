@@ -58,8 +58,8 @@ for (let i=0; i < pokemonList.length; i++) {
 */
 
 //ADDING IIFE
-let pokemonRepository = (function () {
-  let pokemonList = [
+var pokemonRepository = (function () {
+  var pokemonList = [
       {
         name: 'Bulbasaur',
         height: 2.04,
@@ -122,6 +122,10 @@ let pokemonRepository = (function () {
 })();
 
 //CALL FOR POKEMON LIST
-pokemonList.forEach(function(pokemon) {
+/*
+pokemonList.forEach(function(pokemonRepository.getAll)) {
   document.write(pokemon.name + '- Height: ' + pokemon.height + ', Type: ' + pokemon.type + '<br>');
 });
+*/
+
+document.write(pokemonRepository.getAll() );
