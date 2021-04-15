@@ -6,6 +6,13 @@ for (let i=0; i < pokemonList.length; i++) {
     document.write(pokemonList[i].name + " (Height: " + pokemonList[i].height + ") <br>")
   }
 }
+POKEMON VARIABLE
+var pokemon = {
+    name: pokemonList.name,
+    height: pokemonList.height,
+    type: pokemonList.type
+  }
+
 */
 
 // ADDING IIFE
@@ -83,3 +90,4 @@ Object.keys(anne).forEach(function(property) {
 */
 
 document.write(pokemonRepository.getAll() );
+console.log(pokemonRepository.getAll() );
