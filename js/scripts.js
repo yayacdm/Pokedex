@@ -46,6 +46,7 @@ let pokemonList = [
   },
 ];
 
+/* ORIGINAL CODE LOOP
 for (let i=0; i < pokemonList.length; i++) {
   if (pokemonList[i].height >6) {
     document.write(pokemonList[i].name + " (Height: " + pokemonList[i].height + ") - Wow, that’s big!<br>")
@@ -53,3 +54,8 @@ for (let i=0; i < pokemonList.length; i++) {
     document.write(pokemonList[i].name + " (Height: " + pokemonList[i].height + ") <br>")
   }
 }
+*/
+
+pokemonList.forEach(function(pokemon) {
+  document.write(pokemon.name + '- Height: ' + pokemon.height + ', Type: ' + pokemon.type + '<br>');
+});
