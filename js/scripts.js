@@ -2,47 +2,47 @@ let pokemonList = [
   {
     name: 'Bulbasaur',
     height: 2.04,
-    type: ['grass', 'poison']
+    type: ['Grass', ' Poison']
   },
   {
     name: 'Ivysaur',
     height: 3.03,
-    type: ['grass', 'poison']
+    type: ['Grass', ' Poison']
   },
   {
     name: 'Venusaur',
     height: 6.07,
-    type: ['grass', 'poison']
+    type: ['Grass', ' Poison']
   },
   {
     name: 'Charmander',
     height: 2,
-    type: ['fire']
+    type: ['Fire']
   },
   {
     name: 'Charmeleon',
     height: 3.07,
-    type: ['fire']
+    type: ['Fire']
   },
   {
     name: 'Charizard',
     height: 5.07,
-    type: ['fire', 'flying']
+    type: ['Fire', ' Flying']
   },
   {
     name: 'Squirtle',
     height: 1.08,
-    type: ['water']
+    type: ['Water']
   },
   {
     name: 'Wartortle',
     height: 3.03,
-    type: ['water']
+    type: ['Water']
   },
   {
     name: 'Blastoise',
     height: 5.03,
-    type: ['water']
+    type: ['Water']
   },
 ];
 
