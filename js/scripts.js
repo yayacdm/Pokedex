@@ -1,4 +1,5 @@
-/* ORIGINAL CODE LOOP
+/*
+// ORIGINAL CODE LOOP
 for (let i=0; i < pokemonList.length; i++) {
   if (pokemonList[i].height >6) {
     document.write(pokemonList[i].name + " (Height: " + pokemonList[i].height + ") - Wow, that’s big!<br>")
@@ -6,16 +7,13 @@ for (let i=0; i < pokemonList.length; i++) {
     document.write(pokemonList[i].name + " (Height: " + pokemonList[i].height + ") <br>")
   }
 }
-POKEMON VARIABLE
-var pokemon = {
-    name: pokemonList.name,
-    height: pokemonList.height,
-    type: pokemonList.type
-  }
-
+// CALL FOR POKEMON LIST without IIFE
+pokemonList.forEach(function(pokemonRepository.getAll)) {
+  document.write(pokemon.name + '- Height: ' + pokemon.height + ', Type: ' + pokemon.type + '<br>');
+});
 */
 
-// ADDING IIFE
+// IIFE
 var pokemonRepository = (function () {
   var pokemonList = [
       {
@@ -79,15 +77,10 @@ var pokemonRepository = (function () {
   };
 })();
 
-//CALL FOR POKEMON LIST
-/*
-pokemonList.forEach(function(pokemonRepository.getAll)) {
-  document.write(pokemon.name + '- Height: ' + pokemon.height + ', Type: ' + pokemon.type + '<br>');
-});
-Object.keys(anne).forEach(function(property) {
-  document.write(property + ': ' + anne[property] + '<br>');
-});
-*/
-
-document.write(pokemonRepository.getAll() );
+// logs array to console
 console.log(pokemonRepository.getAll() );
+
+// calls pokemon list/details from inside IIFE
+pokemonRepository.getAll().forEach(function (pokemon) {
+  document.write(pokemon.name + '- Height: ' + pokemon.height + ', Type: ' + pokemon.type + '<br>');
+  });
