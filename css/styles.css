@@ -31,9 +31,13 @@ h1 {
   text-align: center;
 }
 
+ul {
+  list-style: none;
+}
+
 .button-class {
   border: none;
-  width: 100%;
+  width: 98%;
   padding: 12px 28px;
   font-family: inherit;
   color: var(--textcolor);
