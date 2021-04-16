@@ -33,6 +33,7 @@ h1 {
 
 .button-class {
   border: none;
+  width: 100%;
   padding: 12px 28px;
   font-family: inherit;
   color: var(--textcolor);
