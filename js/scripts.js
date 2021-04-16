@@ -84,7 +84,7 @@ console.log(pokemonRepository.getAll() );
 
 // calls pokemon list/details from inside IIFE
 pokemonRepository.getAll().forEach(function (pokemon) {
-  document.write(pokemon.name + '- Height: ' + pokemon.height + ', Type: ' + pokemon.type + '<br>');
+  
   });
 
 // Filter for names longer than 8 letters
