@@ -11,13 +11,14 @@ Font: font-family: 'Quicksand', sans-serif;
 :root {
   --bgcolor: #bb1111;
   --textcolor: #3339db;
+  --h1color: #ffffff;
   --buttonbg: #f0ff4a;
   --font: 'Quicksand', sans-serif;
 }
 
 body {
   background-color: var(--bgcolor);
-  color: var(--textcolor);
+  color: var(--h1color);
   font-family: var(--font);
   font-weight: 500;
   font-size: 20px;
@@ -26,11 +27,15 @@ body {
   margin: 20px;
 }
 
+h1 {
+  text-align: center;
+}
+
 .button-class {
   border: none;
   padding: 12px 28px;
   font-family: inherit;
-  color: inherit;
+  color: var(--textcolor);
   text-align: center;
   text-decoration: none;
   display: inline-block;
