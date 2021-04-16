@@ -1,15 +1,17 @@
 /*
 Colors used
-Background Color (Sand): #f2ebd8
-Text Color (Dark Blue): #2f2945;
+Background Color (Red): #bb1111
+Text Color (Blue): #3339db
+Button Background (Yellow): #f0ff4a
 Font: font-family: 'Quicksand', sans-serif;
 */
 /* /////STYLES///// */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=RocknRoll+One&display=swap');
 
 :root {
-  --bgcolor: #f2ebd8;
-  --textcolor: #2f2945;
+  --bgcolor: #bb1111;
+  --textcolor: #3339db;
+  --buttonbg: #f0ff4a;
   --font: 'Quicksand', sans-serif;
 }
 
@@ -25,19 +27,20 @@ body {
 }
 
 .button-class {
-  background-color: #4caf50; /* Green */
   border: none;
-  color: white;
-  padding: 16px 32px;
+  padding: 12px 28px;
+  font-family: inherit;
+  color: inherit;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: bold;
   margin: 4px 2px;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   cursor: pointer;
-  background-color: white;
-  color: black;
-  border: 2px solid #4caf50;
+  background-color: var(--buttonbg);
+  border: 3px solid var(--textcolor);
+  border-color: var(--textcolor);
 }
