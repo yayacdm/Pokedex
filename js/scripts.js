@@ -86,3 +86,7 @@ console.log(pokemonRepository.getAll() );
 pokemonRepository.getAll().forEach(function (pokemon) {
   document.write(pokemon.name + '- Height: ' + pokemon.height + ', Type: ' + pokemon.type + '<br>');
   });
+
+// Filter for names longer than 8 letters
+let pokeFilter = pokemonRepository.getAll().filter(pokemon => pokemon.name.length > 8);
+console.log(pokeFilter);
