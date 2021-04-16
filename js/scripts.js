@@ -82,7 +82,7 @@ var pokemonRepository = (function () {
     listPokemon.appendChild(button);
     pokemonList.appendChild(listPokemon);
     button.addEventListener('click', function (event) {
-      showDetails(pokemon)
+      showDetails(pokemon.name)
     });
   }
 
