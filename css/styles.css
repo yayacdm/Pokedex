@@ -84,11 +84,11 @@ ul {
   padding: 15px;
   width: 100%;
   max-width: 700px;
-  text-align: left;
+  text-align: center;
 }
 
 .modal-close {
-  float: right;
+  float: none;
   -webkit-appearance: none;
   border: 0;
   background: none;
@@ -102,4 +102,9 @@ ul {
 
 .modal p {
   margin-bottom: 0;
+}
+
+.modal img {
+  margin-bottom: 0;
+  width: 30%
 }
