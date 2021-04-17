@@ -73,6 +73,7 @@ ul {
   overflow: auto;
   display: grid;
   text-align: center;
+  color: #000000
 }
 
 .modal {
