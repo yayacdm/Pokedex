@@ -72,7 +72,7 @@ ul {
   z-index: 999;
   overflow: auto;
   display: grid;
-  text-align: center;
+  text-align: left;
   color: #000000
 }
 
