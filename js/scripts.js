@@ -54,7 +54,9 @@ let pokemonRepository = (function () {
       pokemon.height = details.height;
       pokemon.types = [...details.types];
       }).catch(function (e) {
+      /* eslint-disable no-console */
       console.error(e);
+      /* eslint-enable no-console */
   });
 }
 
