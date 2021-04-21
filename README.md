@@ -10,8 +10,7 @@ data from an external API and enables the viewing of data points in detail.
 * On user action (e.g., by clicking on a list item), view details for that item
 
 *Project Dependencies*
-JavaScript Version:
-ESLint Rules:
+ESLint Rules: Recommended + jquery: true, single quotes only
 
 *API Used*
 Pokemon API
