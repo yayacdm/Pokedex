@@ -71,10 +71,10 @@ let pokemonRepository = (function () {
       let pokemonImage = $('<img class="modal-img" style="width:50%">');
       pokemonImage.attr('src', pokemon.imageUrl);
       let pokemonHeight = $('<p>' + 'Height: ' + pokemon.height + '</p>');
-      let pokemonTypes = document.createElement('ul');
-      let types = 'Type: ';
+      let pokemonTypes = document.createElement('span');
+      let types = 'Types: ';
       pokemon.types.forEach(function (item) {
-      types += '<li>' + item.type.name + '</li>'
+      types += item.type.name + ' '
       });
       pokemonTypes.innerHTML = types;
 

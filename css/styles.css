@@ -12,6 +12,7 @@ Font: font-family: 'Quicksand', sans-serif;
   --bgcolor: #bb1111;
   --textcolor: #3339db;
   --h1color: #ffffff;
+  --h5color: #000000;
   --buttonbg: #f0ff4a;
   --font: 'Quicksand', sans-serif;
 }
@@ -25,10 +26,6 @@ body {
   line-height: 1.6;
   text-align: center;
   margin: 20px;
-}
-
-h1 {
-  text-align: center;
 }
 
 ul {
@@ -63,6 +60,10 @@ button.btn.btn-block {
   font-size: 18px;
   font-weight: bold;
   padding: 2px 4px;
+}
+
+#pokemonModal {
+  color: var(--h5color);
 }
 
 /* ///// MODAL /////
