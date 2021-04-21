@@ -56,7 +56,9 @@ let pokemonRepository = (function() {
           });
         })
         .catch(function(t) {
+          /* eslint-disable no-console */
           console.error(t);
+          /* eslint-enable no-console */
         });
     },
     loadDetails: function(t) {
@@ -71,7 +73,9 @@ let pokemonRepository = (function() {
             (t.types = [...e.types]);
         })
         .catch(function(t) {
+          /* eslint-disable no-console */
           console.error(t);
+          /* eslint-enable no-console */
         });
     },
     showDetails: o
