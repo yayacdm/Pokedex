@@ -23,7 +23,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.6;
-  text-align: left;
+  text-align: center;
   margin: 20px;
 }
 
@@ -35,7 +35,11 @@ ul {
   list-style: none;
 }
 
-.button-class {
+.list-group {
+  margin: 10px;
+}
+
+.list-group-item {
   border: none;
   width: 95%;
   padding: 12px 28px;
@@ -53,6 +57,12 @@ ul {
   background-color: var(--buttonbg);
   border: 3px solid var(--textcolor);
   border-color: var(--textcolor);
+}
+
+button.btn.btn-block {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 2px 4px;
 }
 
 /* ///// MODAL ///// */
